@@ -1,6 +1,7 @@
 package de.dm.nina.nina.user.persistence;
 
 import de.dm.nina.nina.beacon.persistence.Beacon;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.persistence.Column;
@@ -13,6 +14,7 @@ import java.util.Date;
 
 @Entity
 @Data
+@AllArgsConstructor
 @Table(name = "userposition")
 public class UserPosition {
     @Id
