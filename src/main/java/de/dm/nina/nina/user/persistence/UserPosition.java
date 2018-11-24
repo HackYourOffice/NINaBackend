@@ -29,4 +29,7 @@ public class UserPosition {
 
     @NotNull
     private Date timestamp;
+
+    @NotNull
+    private String color;
 }
